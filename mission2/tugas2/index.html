@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<title>Game bodoh</title>
+<body onkeydown="moveCharacter(event)">
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>
+        <div id="character">
+            <!-- Burung -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                <!-- Tubuh burung -->
+                <ellipse cx="25" cy="25" rx="15" ry="10" fill="#ffcc29" />
+                <!-- Kepala burung -->
+                <circle cx="17" cy="20" r="5" fill="#ffcc29" />
+                <!-- Paruh burung -->
+                <polygon points="20,22 22,22 22,24" fill="#ff4500" />
+                <!-- Mata burung -->
+                <circle cx="15" cy="18" r="1" fill="#000" />
+                <!-- Ekor burung -->
+                <polygon points="27,20 30,18 30,22" fill="#ffcc29" />
+            </svg>
+        </div>
+    </div>
+    <div class="Judul">
+        <h1>Mission 2 Tugas 2</h1>
+        <h1>Ghessa Theniana</h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
